@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD5B06EF14045103000287EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5B06EE14045103000287EB /* UIKit.framework */; };
+		DD5B06F114045103000287EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5B06F014045103000287EB /* Foundation.framework */; };
+		DD5B06F914045103000287EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD5B06F714045103000287EB /* InfoPlist.strings */; };
+		DD5B06FB14045103000287EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5B06FA14045103000287EB /* main.m */; };
+		DD5B06FF14045103000287EB /* InteractivityAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5B06FE14045103000287EB /* InteractivityAppDelegate.m */; };
+		DD5B070214045103000287EB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD5B070014045103000287EB /* MainWindow.xib */; };
+		DD5B070514045104000287EB /* InteractivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5B070414045104000287EB /* InteractivityViewController.m */; };
+		DD5B070814045104000287EB /* InteractivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD5B070614045104000287EB /* InteractivityViewController.xib */; };
+		DD5B072A140452FD000287EB /* libMapView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5B0720140451CC000287EB /* libMapView.a */; };
+		DD5B072D14045323000287EB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5B072C14045323000287EB /* QuartzCore.framework */; };
+		DD5B072F14045334000287EB /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5B072E14045334000287EB /* libsqlite3.dylib */; };
+		DD5B075014045A6C000287EB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5B074F14045A6C000287EB /* libz.dylib */; };
+		DD5B076314048DE6000287EB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5B076214048DE6000287EB /* CoreLocation.framework */; };
+		DD5B076514048ECA000287EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5B076414048ECA000287EB /* CoreGraphics.framework */; };
+		DDD40E021416A75A00A997A4 /* geography-class-mini.mbtiles in Resources */ = {isa = PBXBuildFile; fileRef = DDD40E011416A75A00A997A4 /* geography-class-mini.mbtiles */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD5B071F140451CC000287EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD5B070F140451CC000287EB /* MapView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 17F31EFA1331050A00122B16;
+			remoteInfo = MapView;
+		};
+		DD5B0721140451CC000287EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD5B070F140451CC000287EB /* MapView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 17157D87133BBC8300E28941;
+			remoteInfo = MapViewTests;
+		};
+		DD5B0723140451CC000287EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD5B070F140451CC000287EB /* MapView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2BF3078F0F8AC5C0007014EE;
+			remoteInfo = "Unit Tests";
+		};
+		DD5B0726140451E1000287EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD5B070F140451CC000287EB /* MapView.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B8C974130E8A19B2007D16AD;
+			remoteInfo = MapView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD5B06EA14045103000287EB /* Interactivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Interactivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5B06EE14045103000287EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD5B06F014045103000287EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD5B06F614045103000287EB /* MBTiles Interactivity Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MBTiles Interactivity Example-Info.plist"; sourceTree = "<group>"; };
+		DD5B06F814045103000287EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD5B06FA14045103000287EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD5B06FC14045103000287EB /* MBTiles Interactivity Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBTiles Interactivity Example-Prefix.pch"; sourceTree = "<group>"; };
+		DD5B06FD14045103000287EB /* InteractivityAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InteractivityAppDelegate.h; sourceTree = "<group>"; };
+		DD5B06FE14045103000287EB /* InteractivityAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteractivityAppDelegate.m; sourceTree = "<group>"; };
+		DD5B070114045103000287EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DD5B070314045103000287EB /* InteractivityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InteractivityViewController.h; sourceTree = "<group>"; };
+		DD5B070414045104000287EB /* InteractivityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteractivityViewController.m; sourceTree = "<group>"; };
+		DD5B070714045104000287EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/InteractivityViewController.xib; sourceTree = "<group>"; };
+		DD5B070F140451CC000287EB /* MapView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MapView.xcodeproj; path = "route-me/MapView/MapView.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		DD5B072C14045323000287EB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DD5B072E14045334000287EB /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		DD5B074F14045A6C000287EB /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		DD5B076214048DE6000287EB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DD5B076414048ECA000287EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DDD40E011416A75A00A997A4 /* geography-class-mini.mbtiles */ = {isa = PBXFileReference; lastKnownFileType = file; path = "geography-class-mini.mbtiles"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD5B06E714045103000287EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5B076514048ECA000287EB /* CoreGraphics.framework in Frameworks */,
+				DD5B076314048DE6000287EB /* CoreLocation.framework in Frameworks */,
+				DD5B06F114045103000287EB /* Foundation.framework in Frameworks */,
+				DD5B072D14045323000287EB /* QuartzCore.framework in Frameworks */,
+				DD5B06EF14045103000287EB /* UIKit.framework in Frameworks */,
+				DD5B072A140452FD000287EB /* libMapView.a in Frameworks */,
+				DD5B072F14045334000287EB /* libsqlite3.dylib in Frameworks */,
+				DD5B075014045A6C000287EB /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD5B06DF14045103000287EB = {
+			isa = PBXGroup;
+			children = (
+				DD5B06F414045103000287EB /* MBTiles Interactivity Example */,
+				DD5B070E140451B7000287EB /* route-me */,
+				DD5B06ED14045103000287EB /* Frameworks */,
+				DD5B06EB14045103000287EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD5B06EB14045103000287EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD5B06EA14045103000287EB /* Interactivity.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD5B06ED14045103000287EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD5B076414048ECA000287EB /* CoreGraphics.framework */,
+				DD5B076214048DE6000287EB /* CoreLocation.framework */,
+				DD5B06F014045103000287EB /* Foundation.framework */,
+				DD5B072C14045323000287EB /* QuartzCore.framework */,
+				DD5B06EE14045103000287EB /* UIKit.framework */,
+				DD5B072E14045334000287EB /* libsqlite3.dylib */,
+				DD5B074F14045A6C000287EB /* libz.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD5B06F414045103000287EB /* MBTiles Interactivity Example */ = {
+			isa = PBXGroup;
+			children = (
+				DD5B06FD14045103000287EB /* InteractivityAppDelegate.h */,
+				DD5B06FE14045103000287EB /* InteractivityAppDelegate.m */,
+				DD5B070314045103000287EB /* InteractivityViewController.h */,
+				DD5B070414045104000287EB /* InteractivityViewController.m */,
+				DD5B070614045104000287EB /* InteractivityViewController.xib */,
+				DD5B06F514045103000287EB /* Supporting Files */,
+			);
+			path = "MBTiles Interactivity Example";
+			sourceTree = "<group>";
+		};
+		DD5B06F514045103000287EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD5B070014045103000287EB /* MainWindow.xib */,
+				DD5B06F614045103000287EB /* MBTiles Interactivity Example-Info.plist */,
+				DD5B06F714045103000287EB /* InfoPlist.strings */,
+				DD5B06FA14045103000287EB /* main.m */,
+				DD5B06FC14045103000287EB /* MBTiles Interactivity Example-Prefix.pch */,
+				DDD40E011416A75A00A997A4 /* geography-class-mini.mbtiles */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD5B070E140451B7000287EB /* route-me */ = {
+			isa = PBXGroup;
+			children = (
+				DD5B070F140451CC000287EB /* MapView.xcodeproj */,
+			);
+			name = "route-me";
+			path = "MBTiles Interactivity Example";
+			sourceTree = "<group>";
+		};
+		DD5B0710140451CC000287EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD5B0720140451CC000287EB /* libMapView.a */,
+				DD5B0722140451CC000287EB /* MapViewTests.octest */,
+				DD5B0724140451CC000287EB /* RM Unit Tests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD5B06E914045103000287EB /* MBTiles Interactivity Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5B070B14045104000287EB /* Build configuration list for PBXNativeTarget "MBTiles Interactivity Example" */;
+			buildPhases = (
+				DD5B06E614045103000287EB /* Sources */,
+				DD5B06E714045103000287EB /* Frameworks */,
+				DD5B06E814045103000287EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD5B0727140451E1000287EB /* PBXTargetDependency */,
+			);
+			name = "MBTiles Interactivity Example";
+			productName = "MBTiles Interactivity Example";
+			productReference = DD5B06EA14045103000287EB /* Interactivity.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD5B06E114045103000287EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Development Seed";
+			};
+			buildConfigurationList = DD5B06E414045103000287EB /* Build configuration list for PBXProject "MBTiles Interactivity Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD5B06DF14045103000287EB;
+			productRefGroup = DD5B06EB14045103000287EB /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DD5B0710140451CC000287EB /* Products */;
+					ProjectRef = DD5B070F140451CC000287EB /* MapView.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				DD5B06E914045103000287EB /* MBTiles Interactivity Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DD5B0720140451CC000287EB /* libMapView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMapView.a;
+			remoteRef = DD5B071F140451CC000287EB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DD5B0722140451CC000287EB /* MapViewTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MapViewTests.octest;
+			remoteRef = DD5B0721140451CC000287EB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DD5B0724140451CC000287EB /* RM Unit Tests.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "RM Unit Tests.app";
+			remoteRef = DD5B0723140451CC000287EB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD5B06E814045103000287EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5B06F914045103000287EB /* InfoPlist.strings in Resources */,
+				DD5B070214045103000287EB /* MainWindow.xib in Resources */,
+				DD5B070814045104000287EB /* InteractivityViewController.xib in Resources */,
+				DDD40E021416A75A00A997A4 /* geography-class-mini.mbtiles in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD5B06E614045103000287EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5B06FB14045103000287EB /* main.m in Sources */,
+				DD5B06FF14045103000287EB /* InteractivityAppDelegate.m in Sources */,
+				DD5B070514045104000287EB /* InteractivityViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD5B0727140451E1000287EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MapView;
+			targetProxy = DD5B0726140451E1000287EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD5B06F714045103000287EB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5B06F814045103000287EB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD5B070014045103000287EB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5B070114045103000287EB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		DD5B070614045104000287EB /* InteractivityViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5B070714045104000287EB /* en */,
+			);
+			name = InteractivityViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD5B070914045104000287EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD5B070A14045104000287EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD5B070C14045104000287EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBTiles Interactivity Example/MBTiles Interactivity Example-Prefix.pch";
+				HEADER_SEARCH_PATHS = "route-me/MapView/**";
+				INFOPLIST_FILE = "MBTiles Interactivity Example/MBTiles Interactivity Example-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = Interactivity;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD5B070D14045104000287EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MBTiles Interactivity Example/MBTiles Interactivity Example-Prefix.pch";
+				HEADER_SEARCH_PATHS = "route-me/MapView/**";
+				INFOPLIST_FILE = "MBTiles Interactivity Example/MBTiles Interactivity Example-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = Interactivity;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD5B06E414045103000287EB /* Build configuration list for PBXProject "MBTiles Interactivity Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5B070914045104000287EB /* Debug */,
+				DD5B070A14045104000287EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD5B070B14045104000287EB /* Build configuration list for PBXNativeTarget "MBTiles Interactivity Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD5B070C14045104000287EB /* Debug */,
+				DD5B070D14045104000287EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD5B06E114045103000287EB /* Project object */;
+}
