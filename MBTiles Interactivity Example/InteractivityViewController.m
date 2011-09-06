@@ -26,7 +26,7 @@
     
     [self.view addSubview:mapView];
 
-    NSURL *tileSetURL = [[NSBundle mainBundle] URLForResource:@"geography-class" withExtension:@"mbtiles"];
+    NSURL *tileSetURL = [[NSBundle mainBundle] URLForResource:@"geography-class-mini" withExtension:@"mbtiles"];
     
     RMMBTilesTileSource *source = [[[RMMBTilesTileSource alloc] initWithTileSetURL:tileSetURL] autorelease];
 
