@@ -11,3 +11,7 @@ globe, in a 29MB data file.
 More info on creating the interactivity features at: 
 
     http://developmentseed.org/blog/2011/may/16/tilemill-020-release
+
+Screenshot of the app: 
+
+![MBTiles Interactivity Example Screenshot](https://github.com/incanus/MBTiles-Interactivity-Example/raw/master/screenshot.png)
